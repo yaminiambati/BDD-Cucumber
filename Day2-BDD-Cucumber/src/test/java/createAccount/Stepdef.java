@@ -76,7 +76,7 @@ public class Stepdef {
 		
 		//Fake declaration
 		Account account=new Account();
-		account.setAccountNo(1);
+		account.setAccountNo(2);
 		account.setOpeningBalance(1000);
 		account.setCustomer(customer);
 		

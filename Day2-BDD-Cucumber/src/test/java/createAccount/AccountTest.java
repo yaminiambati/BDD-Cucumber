@@ -40,7 +40,7 @@ public class AccountTest {
 		customer=null;
 		
 		exception.expect(InvalidCustomer.class);
-		exception.expectMessage("Sorry! Customer refers Null!");
+		exception.expectMessage("Invalid");
 		//exception.expectMessage("Sorry");
 		
 		accountService.createAccount(customer, 1000);
